@@ -1,0 +1,20 @@
+.{
+    .name = .zosd,
+    .version = "0.0.0",
+    .fingerprint = 0x28809c8d523d112a,
+
+    .minimum_zig_version = "0.14.0",
+
+    .dependencies = .{
+        .gobject = .{
+            .url = "https://github.com/jcollie/ghostty-gobject/releases/download/0.14.0-2025-03-18-21-1/ghostty-gobject-0.14.0-2025-03-18-21-1.tar.zst",
+            .hash = "gobject-0.2.0-Skun7IWDlQAOKu4BV7LapIxL9Imbq1JRmzvcIkazvAxR",
+        },
+    },
+
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+    },
+}

@@ -1,0 +1,38 @@
+using Gtk 4.0;
+using Adw 1;
+
+template $ZosdWindow: Adw.ApplicationWindow {
+    height-request: -1;
+
+    styles [
+        "pill",
+    ]
+
+    content: Box {
+        valign: center;
+        orientation: horizontal;
+        margin-start: 10;
+
+        ToggleButton mute_toggle {
+            styles [
+                "circular",
+            ]
+            valign: center;
+            has-frame: false;
+        }
+
+        Scale scale {
+            hexpand: true;
+
+            adjustment: Adjustment {
+                lower: 0.0;
+                upper: 1.0;
+                step-increment: 0.01;
+            };
+
+            digits: 2;
+            draw-value: true;
+            value-pos: right;
+        }
+    };
+}
