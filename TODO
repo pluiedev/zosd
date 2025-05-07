@@ -1,0 +1,11 @@
+- [x] Minimum viable product - 08.05.2025
+- [x] Interactivity (sliders & mute button) - 08.05.2025
+- [ ] Backlight control/interface generalization
+- [ ] Device selection & displaying device name when not default
+- [ ] Device allowlists/denylists
+- [ ] CLI
+- [ ] Config file...?
+- [ ] Custom stylesheets...??
+- [ ] More detailed README for other distros
+- [ ] Submit to Nixpkgs
+- [ ] ~~Profit~~
