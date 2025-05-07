@@ -2,6 +2,8 @@
 
 `zosd` is an interactive on-screen display widget for Wayland that displays information front and center.
 
+![zosd in action](./assets/screenshot.png)
+
 No more reaching for status bars on the periphery of your vision, or hooking up Bash scripts to hackily display an overlay while simultaneously calling `amixer`/`wpctl`/`pactl`/`brightnessctl`/etc. `zosd` takes it the right way around and provides reactive, visual feedback and intuitive controls to your actions, working out of the box with minimal configuration.
 
 ## Usage
