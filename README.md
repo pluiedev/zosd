@@ -1,6 +1,6 @@
 # `zosd`
 
-`zosd` is an interactive on-screen display widget for Wayland that displays information front and center.
+`zosd` (`/ˈzɔsd/`, like "zossed" or "exhaust" without the initial e) is an interactive on-screen display widget for Wayland that displays information front and center.
 
 ![zosd in action](./assets/screenshot.png)
 
